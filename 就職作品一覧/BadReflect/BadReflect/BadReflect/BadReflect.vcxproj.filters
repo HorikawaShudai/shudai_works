@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Object">
+      <UniqueIdentifier>{7b0340f9-714c-4ab5-86a2-c4dd104c0d60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\2D">
+      <UniqueIdentifier>{8a867213-bf1b-4ec0-bc3c-db5227ca21aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\3D">
+      <UniqueIdentifier>{9325efdf-ccec-46fd-a3f4-8ca80d0a3414}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\Character">
+      <UniqueIdentifier>{585ffcbd-af71-4da2-92d2-fa48065905b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Mode">
+      <UniqueIdentifier>{7fdb5857-d7b7-40ec-a151-55afbd8101f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System">
+      <UniqueIdentifier>{0cb771eb-dbc9-40cb-9604-6da17ebf97e9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cpph\3DBlock.cpp">
+      <Filter>ソース ファイル\Object\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="cpph\3DPlayer.cpp">
+      <Filter>ソース ファイル\Object\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="cpph\3DEnemy.cpp">
+      <Filter>ソース ファイル\Object\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="cpph\Bg.cpp">
+      <Filter>ソース ファイル\Object\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="cpph\Billboard.cpp">
+      <Filter>ソース ファイル\Object\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="cpph\Boss.cpp">
+      <Filter>ソース ファイル\Object\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="cpph\Block.cpp">
+      <Filter>ソース ファイル\Object\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="cpph\Camera.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="cpph\Bullet.cpp">
+      <Filter>ソース ファイル\Object\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="cpph\Effect.cpp">
+      <Filter>ソース ファイル\Object\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="cpph\Enemy.cpp">
+      <Filter>ソース ファイル\Object\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="cpph\Explosion.cpp">
+      <Filter>ソース ファイル\Object\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="cpph\fade.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="cpph\Field.cpp">
+      <Filter>ソース ファイル\Object\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="cpph\Game.cpp">
+      <Filter>ソース ファイル\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="cpph\Input.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="cpph\LifeGuage.cpp">
+      <Filter>ソース ファイル\Object\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="cpph\Light.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="cpph\main.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="cpph\Manager.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="cpph\MeshCylinder.cpp">
+      <Filter>ソース ファイル\Object\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="cpph\Model.cpp">
+      <Filter>ソース ファイル\Object\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="cpph\ModelBullet.cpp">
+      <Filter>ソース ファイル\Object\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="cpph\Object.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cpph\Object2D.cpp">
+      <Filter>ソース ファイル\Object\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="cpph\Object3D.cpp">
+      <Filter>ソース ファイル\Object\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="cpph\Particle.cpp">
+      <Filter>ソース ファイル\Object\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="cpph\Ranking.cpp">
+      <Filter>ソース ファイル\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="cpph\Renderer.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="cpph\motion.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="cpph\pause.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="cpph\Result.cpp">
+      <Filter>ソース ファイル\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="cpph\Scene.cpp">
+      <Filter>ソース ファイル\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="cpph\Score.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="cpph\Texture.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="cpph\sound.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="cpph\Title.cpp">
+      <Filter>ソース ファイル\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="cpph\Tutorial.cpp">
+      <Filter>ソース ファイル\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="cpph\Player.cpp">
+      <Filter>ソース ファイル\Object\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="cpph\Textures.cpp">
+      <Filter>ソース ファイル\Object\2D</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cpph\3DBlock.h">
+      <Filter>ソース ファイル\Object\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="cpph\3DEnemy.h">
+      <Filter>ソース ファイル\Object\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="cpph\3DPlayer.h">
+      <Filter>ソース ファイル\Object\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="cpph\Bg.h">
+      <Filter>ソース ファイル\Object\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="cpph\Block.h">
+      <Filter>ソース ファイル\Object\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="cpph\Billboard.h">
+      <Filter>ソース ファイル\Object\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="cpph\Boss.h">
+      <Filter>ソース ファイル\Object\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="cpph\Bullet.h">
+      <Filter>ソース ファイル\Object\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="cpph\Camera.h">
+      <Filter>ソース ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="cpph\Effect.h">
+      <Filter>ソース ファイル\Object\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="cpph\Enemy.h">
+      <Filter>ソース ファイル\Object\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="cpph\Explosion.h">
+      <Filter>ソース ファイル\Object\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="cpph\fade.h">
+      <Filter>ソース ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="cpph\Field.h">
+      <Filter>ソース ファイル\Object\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="cpph\Game.h">
+      <Filter>ソース ファイル\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="cpph\Input.h">
+      <Filter>ソース ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="cpph\LifeGuage.h">
+      <Filter>ソース ファイル\Object\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="cpph\Light.h">
+      <Filter>ソース ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="cpph\main.h">
+      <Filter>ソース ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="cpph\Manager.h">
+      <Filter>ソース ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="cpph\motion.h">
+      <Filter>ソース ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="cpph\MeshCylinder.h">
+      <Filter>ソース ファイル\Object\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="cpph\Model.h">
+      <Filter>ソース ファイル\Object\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="cpph\Object3D.h">
+      <Filter>ソース ファイル\Object\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="cpph\Object.h">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="cpph\Object2D.h">
+      <Filter>ソース ファイル\Object\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="cpph\Ranking.h">
+      <Filter>ソース ファイル\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="cpph\Result.h">
+      <Filter>ソース ファイル\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="cpph\Scene.h">
+      <Filter>ソース ファイル\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="cpph\Title.h">
+      <Filter>ソース ファイル\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="cpph\Tutorial.h">
+      <Filter>ソース ファイル\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="cpph\Textures.h">
+      <Filter>ソース ファイル\Object\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="cpph\Texture.h">
+      <Filter>ソース ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="cpph\sound.h">
+      <Filter>ソース ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="cpph\Renderer.h">
+      <Filter>ソース ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="cpph\Player.h">
+      <Filter>ソース ファイル\Object\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="cpph\pause.h">
+      <Filter>ソース ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="cpph\Particle.h">
+      <Filter>ソース ファイル\Object\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="cpph\ModelBullet.h">
+      <Filter>ソース ファイル\Object\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="cpph\Score.h">
+      <Filter>ソース ファイル\System</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
